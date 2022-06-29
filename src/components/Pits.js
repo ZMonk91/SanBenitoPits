@@ -26,7 +26,7 @@ export const Pits = [
 	{
 		id: 4,
 		name: "Smoker",
-		img: '/ComingSoon.png',
+		img: '../ComingSoon.png',
 		description:
 			"That's right, you read that... Badass Smokers are on the way. We're currently testing out the best designs to ensure maximum flavor in every session. Once we unleash this beast to the public, there's no putting her back in the cage.",
 		price: "Contact us for a quote"
@@ -34,7 +34,7 @@ export const Pits = [
 	{
 		id: 5,
 		name: "Custom",
-		img: '/CustomOrders.png',
+		img: './CustomOrders.png',
 		description:
 			"Looking for a something different? If you can imagine it, we can build it. Everything from portable hitch-towed pits to competition grilling, we got you covered.",
 		price: "Contact us for a quote"

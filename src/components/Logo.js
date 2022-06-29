@@ -6,7 +6,7 @@ export default function Logo(props) {
 	return (
 		<Box {...props}>
 			<Image
-				src="../img/san-benito-pits.svg"
+				src="../san-benito-pits.svg"
 				alt="San Benito Pits BBQ Barbecue Logo Hollister California"
 				fill="#ff0000"
 				minW="6rem"
