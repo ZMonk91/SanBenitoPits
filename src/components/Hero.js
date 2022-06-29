@@ -1,10 +1,6 @@
 import {
 	Flex,
-	Stack,
-	Text,
-	Box,
 	VStack,
-	useBreakPointValue
 } from "@chakra-ui/react"
 
 const Hero = () => {
