@@ -11,7 +11,7 @@ const Hero = () => {
 	return (
 		<Flex
 			h="100vw"
-			backgroundImage={'url("/Hero.png")'}
+			backgroundImage={'url("./Hero.png")'}
 			backgroundSize={"cover"}
 			backgroundPosition={"center"}
 		>
