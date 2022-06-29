@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/SanBenitoPits/static/css/main.728658e7.css",
+    "main.js": "/SanBenitoPits/static/js/main.fdf7777a.js",
+    "static/js/787.20845b68.chunk.js": "/SanBenitoPits/static/js/787.20845b68.chunk.js",
+    "index.html": "/SanBenitoPits/index.html",
+    "main.728658e7.css.map": "/SanBenitoPits/static/css/main.728658e7.css.map",
+    "main.fdf7777a.js.map": "/SanBenitoPits/static/js/main.fdf7777a.js.map",
+    "787.20845b68.chunk.js.map": "/SanBenitoPits/static/js/787.20845b68.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.728658e7.css",
+    "static/js/main.fdf7777a.js"
+  ]
+}
