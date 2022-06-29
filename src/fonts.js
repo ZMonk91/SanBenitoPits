@@ -7,7 +7,7 @@ const Fonts = () => (
             font-family: 'Ravenscroft';
            	font-style: normal;
 	        font-weight: normal;
-            src: url('/Ravenscroft.ttf')
+            src: url('./Ravenscroft.ttf')
         }
     `}
 	/>
