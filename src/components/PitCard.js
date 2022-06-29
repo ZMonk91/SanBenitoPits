@@ -1,7 +1,7 @@
 import React from "react"
-import {Box, Image, Text, Stack, Button} from "@chakra-ui/react"
+import {Box, Image, Text, Stack, Button, Spacer} from "@chakra-ui/react"
 
-const PitCard = ({pitName,pitDescription,pitId}) => {
+const PitCard = ({pitName,pitDescription,pitId, img}) => {
 	return (
 		<Box
 			maxW="18rem"
@@ -12,8 +12,8 @@ const PitCard = ({pitName,pitDescription,pitId}) => {
 		>
 			<Image
 				w="18rem"
-				src={
-					"https://i5.walmartimages.com/asr/42f6c748-2f02-4303-bd67-2dc3c2965b40_1.b247365d0cd1baa385a64a3159e798b7.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF"
+				h="20rem"
+				src={img
 				}
 				alt="Bandit BBQ Pit"
 				rounded="0.5rem"
@@ -22,11 +22,12 @@ const PitCard = ({pitName,pitDescription,pitId}) => {
 				<Stack align="Center">
 					<Text fontFamily={'Ravenscroft'} fontSize={"3.5rem"}>{pitName}</Text>
 				</Stack>
-				<Stack>
+				<Stack h="100%">
 					<Text>
 						{pitDescription}
 					</Text>
-					<Button fontSize={'3xl'}>Customize</Button>
+					<Spacer/>
+					<Button alignContent={"flex-end"} fontSize={'3xl'}>Customize</Button>
 				</Stack>
 			</Box>
 		</Box>

@@ -13,6 +13,7 @@ const PitList = () => {
 						pitDescription={pit.description}
 						pitId={pit.id}
 						key={pit.id}
+						img={pit.img}
 					/>
 				)
 			})}
